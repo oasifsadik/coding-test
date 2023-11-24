@@ -13,5 +13,6 @@ class Post extends Model
         'title',
         'description',
         'status',
+        'admin_approved',
     ];
 }
