@@ -2,7 +2,7 @@
     <i class="fa fa-bars"></i>
 </div>
 <!--logo start-->
-<a href="{{ url('/superadmin/dashboard') }}" class="logo">User<span>Panel</span></a>
+<a href="{{ url('/userdashboard') }}" class="logo">User<span>Panel</span></a>
 <!--logo end-->
 <div class="nav notify-row" id="top_menu">
 
