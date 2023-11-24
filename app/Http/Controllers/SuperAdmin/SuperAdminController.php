@@ -35,4 +35,9 @@ class SuperAdminController extends Controller
         $reject->save();
         return redirect()->back();
     }
+
+    public function approvedpost(){
+        $approvedpost = Post::where('admin_approved','approved')->get();
+        return view('superAdmin.approvedpost',compact('approvedpost'));
+    }
 }

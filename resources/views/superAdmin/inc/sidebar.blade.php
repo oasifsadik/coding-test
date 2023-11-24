@@ -12,6 +12,7 @@
         </a>
         <ul class="sub">
             <li><a  href="{{ url('/superadmin/review') }}">Review Posts</a></li>
+            <li><a  href="{{ url('/superadmin/approvedpost') }}">Approved Posts</a></li>
         </ul>
     </li>
 

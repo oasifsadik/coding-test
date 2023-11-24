@@ -32,6 +32,7 @@ Route::middleware(['auth','role'])->group(function(){
     Route::get('/superadmin/review',[SuperAdminController::class,'review'])->name('review');
     Route::get('/superadmin/approved/{id}',[SuperAdminController::class,'approved'])->name('approved');
     Route::get('/superadmin/reject/{id}',[SuperAdminController::class,'reject'])->name('reject');
+    Route::get('/superadmin/approvedpost',[SuperAdminController::class,'approvedpost'])->name('approvedpost');
 
 
     //admin
